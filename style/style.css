@@ -49,19 +49,21 @@ body {
 
 .header {
   border-bottom: 1px solid #c4c4c4;
+  
 }
 
 .header-wrapper {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding-top: 35px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 35px 0;
 }
 
 .logo-link {
- margin: 50px;
+ margin-right: 50px;
+ 
 }
 
 .header-nav {
@@ -71,6 +73,7 @@ body {
   width: 600px;
   display: flex;
   justify-content: space-between;
+  margin-left: 271px;
 }
 
 .list-element {
@@ -91,16 +94,19 @@ body {
  background-color: #3172b9;
  border-radius: 3px;
  color: #fff;
+ margin-left: 52px;
 }
 
 /*_______________main__________________________*/
 
-.main-h1 {
+.section-h1 {
   background-image: url(../img/main/Frame.svg);
   width: 1540px;
   height: 550px;
+  margin: 0 auto;
 }
-.main-bg h1 {
+
+.h1 {
   font-size: 40px;
   font-weight: 300;
   line-height: 52px;
@@ -108,8 +114,10 @@ body {
   padding-top: 113px;
   padding-left: 185px;
   padding-right: 826px;
+  margin: 0 auto;
 }
-.main-h1 p {
+
+.h1-text p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24.8px;
@@ -118,377 +126,360 @@ body {
   padding-left: 185px;
   padding-right: 884px;
 }
-.free-trial {
-  background-color: #3172b9;
-  color: #fff;
-  font-weight: 600;
+
+.h1-text button {
   font-size: 15px;
-  border-radius: 3px;
+  font-weight: 600;
   width: 250px;
   height: 58px;
-  line-height: 20.43px;
-  padding: 15px 35px 15px 35px;
+  background-color: #3172b9;
+  border-radius: 3px;
+  color: #fff;
   margin-left: 185px;
   margin-top: 34px;
 }
-.main-h1 img {
-  padding-left: 225px;
-  padding-top: 14px;
-}
+
 .SSL {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SSL p {
   font-size: 11px;
   font-weight: 400;
-  line-height: 17.05px;
   color: #787878;
-  padding-left: 252px;
+  padding-top: 14px;
+  padding-left: 13px;
 }
-.main-h2 h2 {
+
+.SSL img {
+  width: 14px;
+  height: 17px;
+  margin-left: 225px;
+  margin-top: 14px;
+}
+
+/*____________________________SERVISES____________________*/
+
+.servises-section {
+  padding-top: 87px;
+  padding-bottom: 185px;
+  border-bottom: 1px solid #C4C4C4;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.servises-title {
+  max-width: 1170px;
+  padding-bottom: 21px;
   font-size: 36px;
   font-weight: 300;
   line-height: 46.8px;
-  color: #1c1c1c;
-  margin-left: 704px;
-  margin-top: 87px;
+  color: #1C1C1C;
+  margin: 0 auto;
+  text-align: center;
 }
 
+.services-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: #787878;
+  padding-bottom: 54px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*----------Карточки сервис-----------*/
 
 
+.servises-wrapper {
+  display: flex;
+  gap: 30px;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+}
 
+.servises-card-wrapper {
+  display: inline-block;
+  width: 270px;
+  height: 320px;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 30px;
+  align-self: center;
+}
 
+.servises-card-wrapper img {
+  display: inline-block;
+  padding-top: 61px;
+  padding-bottom: 29px;
+}
 
+.servises-card-content-wrapper {
+ 
+}
 
+.servises-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 136px;
+  color: #1C1C1C;
 
+}
 
-
-
-
-
-
+.servises-card-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #787878;
+  padding-top: 15px;
+}
 
 /*_______________articles______________________*/
 
 .articles-section {
-  border-bottom: 1 px solid #c4c4c4;
   padding-top: 90px;
   padding-bottom: 160px;
+  border-bottom: 1px solid #C4C4C4;
+  margin: 0 auto;
 }
+
 .articles-title {
+  max-width: 1170px;
+  padding-bottom: 40px;
   font-size: 36px;
   font-weight: 300;
-  line-height: 130px;
+  line-height: 130%;
   margin: 0 auto;
-  max-width: 1170px;padding-bottom: 40px;
 }
+
 .articles-wrapper {
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   max-width: 1170px;
-}
-.card-wrapper {
-}
-.card-content-wrapper {
-  padding: 30px 160px 30px 30px;
+  margin: 0 auto;
 }
 
+.articles-card-wrapper {
+  display: flex;
+  width: 570px;
+  height: 180px;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+}
+
+.articles-card-content-wrapper {
+  padding: 23px 156px 38px 30px;
+}
+
+.articles-card-time {
+  font-size: 10px;
+  font-weight: 400;
+  color: #787878;
+}
+
+.articles-card-title {
   
+}
 
-.services {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 21.79px;
-  margin-left: 475px;
-  margin-top: 21px;
-  margin-bottom: 20px;
-}
-.your-legacy {
-  text-align: center;
-  border: 1px solid #E4E4E4;
-  width: 270px;
-  height: 320px;
-  margin-left: 185px;
-  margin-right: 30px;
-  border-radius: 5px;
-}
-.your-legacy img {
-  align-self: center;
-  padding-top: 61px;
-}
-.your-legacy h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #1c1c1c;
-  text-align: center;
-  padding-top: 27px;
-}
-.your-legacy p {
-  font-size: 17px;
+.articles-card-text {
+  font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   color: #787878;
-  padding-top: 15px;
-  text-align: center;
+  padding-bottom: 33px;
 }
-.yur-halth {
-  text-align: center;
-  border: 1px solid #E4E4E4;
-  width: 270px;
-  height: 320px;
-  margin-left: 485px;
-  margin-right: 30px;
-  border-radius: 5px;
+
+/*_____________________CLIENTS___________________*/
+
+.clients-section {
+  padding-top: 87px;
+  padding-bottom: 87px;
+  border-bottom: 1px solid #C4C4C4;
+  margin: 0 auto;
 }
-.yur-halth img {
-  align-self: center;
-  padding-top: 61px;
-}
-.yur-halth h3 {
+
+.clients-title {
+  max-width: 1170px;
+  padding-bottom: 42px;margin-bottom: 15px;
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
-  color: #1c1c1c;
-  text-align: center;
-  padding-top: 27px;
-}
-.yur-halth p {
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 21px;
-  color: #787878;
-  padding-top: 15px;
-  text-align: center;
-}
-.memorial {
-  text-align: center;
-  border: 1px solid #E4E4E4;
-  width: 270px;
-  height: 320px;
-  margin-left: 785px;
-  margin-right: 30px;
-  border-radius: 5px;
-}
-.memorial img {
-  align-self: center;
-  padding-top: 61px;
-}
-.memorial h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #1c1c1c;
-  text-align: center;
-  padding-top: 27px;
-}
-.memorial p {
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 21px;
-  color: #787878;
-  padding-top: 15px;
-  text-align: center;
-}
-.legal {
-  text-align: center;
-  border: 1px solid #E4E4E4;
-  width: 270px;
-  height: 320px;
-  margin-left: 1085px;
-  margin-right: 185px;
-  border-radius: 5px;
-}
-.legal img {
-  align-self: center;
-  padding-top: 61px;
-}
-.legal h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #1c1c1c;
-  text-align: center;
-  padding-top: 27px;
-}
-.legal p {
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 21px;
-  color: #787878;
-  padding-top: 15px;
-  text-align: center;
-}
-.articles h2 {
+  color: #1C1C1C;
   font-size: 36px;
   font-weight: 300;
   line-height: 46.8px;
-  color: #1c1c1c;
-  margin-left: 182px;
-  margin-top: 248px;
-  margin-bottom: 42px;
+  margin: 0 auto;
 }
-.jurisdiction {
-  border: 1px solid #E4E4E4;
-  width: 570px;
-  height: 180px;
-  margin-left: 185px;
-  margin-right: 30px;
+
+.clients-wrapper {
+  display: flex;
+  gap: 30px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+.clients-card-wrapper {
+  width: 370px;
+  height: 362px;
+  border: 1px solid #6b6b6b;
   border-radius: 5px;
 }
-.jurisdiction img {
-  padding-right: 400px;
-}
-.jurisdiction1 {
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 15px;
-  color: #787878;
-  padding-left: 200px;
-  padding-top: 23;
-  text-align: left;
-}
-.jurisdiction h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #1c1c1c;
-  text-align: left;
-  padding-left: 200px;
-}
-.jurisdiction p {
+
+.clients-text {
   font-size: 14px;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 25.2px;
   color: #787878;
-  padding-top: 15px;
-  padding-right: 160px;
-  padding-left: 200px;
+  padding: 51px 53px 33px 36px;
+
+}
+.clients-card-content-wrapper {
+  content: flex;
+  margin-left: 36px;
+  align-items: center;
+  border-top: 1px solid #dadada;
+  width: 297px;
   text-align: left;
+
 }
-.consulting {
-  border: 1px solid #E4E4E4;
-  width: 570px;
-  height: 180px;
-  margin-left: 785px;
-  margin-right: 30px;
-  border-radius: 5px;
-  text-align: left;
+
+.clients-card-content-wrapper img { 
+  float: left;
+  border: 2px solid #3172b9;
+  border-radius: 80px;
+  margin-top: 28px;
 }
-.consulting img {
-  padding-right: 400px;
+.clients-card-title {
+ font-size: 17px;
+ font-weight: 600;
+ line-height: 30.6px;
+ color: #1C1C1C;
+ padding-top: 33px;
+ padding-left: 84px;
 }
-.consulting1 {
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 15px;
-  color: #787878;
-  text-align: left;
-  padding-left: 200px;
-}
-.consulting h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #1c1c1c;
-  text-align: left;
-  padding-left: 200px;
-}
-.consulting p {
+
+.clients-card-text {
   font-size: 14px;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 25.2px;
   color: #787878;
-  padding-top: 15px;
-  padding-right: 160px;
-  padding-left: 200px;
-  text-align: left;
+  padding-left: 84px;
 }
-.contractors {
-  border: 1px solid #E4E4E4;
-  width: 570px;
-  height: 180px;
-  margin-left: 785px;
-  margin-right: 30px;
-  border-radius: 5px;
-  text-align: left;
+
+/*------------------contacts------------*/
+
+.contacts-section {
+  padding-top: 87px;
+  padding-bottom: 160px;
+  border-bottom: 1px solid #C4C4C4;
 }
-.contractors img {
-  padding-right: 400px;
-}
-.contractors1 {
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 15px;
-  color: #787878;
-  text-align: left;
-  padding-left: 200px;
-}
-.contractors h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #1c1c1c;
-  text-align: left;
-  padding-left: 200px;
-}
-.contractors p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
-  color: #787878;
-  padding-top: 15px;
-  padding-right: 160px;
-  padding-left: 200px;
-  text-align: left;
-}
-.rights {
-  border: 1px solid #E4E4E4;
-  width: 570px;
-  height: 180px;
-  margin-left: 185px;
-  margin-right: 30px;
-  border-radius: 5px;
-  text-align: left;
-}
-.rights img {
-  padding-right: 400px;
-}
-.rights1 {
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 15px;
-  color: #787878;
-  text-align: left;
-  padding-left: 200px;
-}
-.rights h3 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #1c1c1c;
-  text-align: left;
-  padding-left: 200px;
-}
-.rights p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
-  color: #787878;
-  padding-top: 15px;
-  padding-right: 160px;
-  padding-left: 200px;
-  text-align: left;
-}
-.clients {
-  width: 1920px;
-  height: 700px;
-}
-.clients h2 {
+
+.contacts-title {
+  max-width: 1170px;
+  padding-bottom: 109px;
   font-size: 36px;
   font-weight: 300;
   line-height: 46.8px;
-  color: #1c1c1c;
-  margin-left: 182px;
-  margin-top: 248px;
-  margin-bottom: 42px;
+  margin: 0 auto;
+}
+
+.contacts-wrapper {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+} 
+
+.contacts-visitus {
+  width: 214px;
+  height: 159px;
+  margin-right: 186px;
+}
+
+.contacts-callus {
+  width: 121px;
+  height: 159px;
+  margin-right: 279px;
+}
+
+.contacts-email {
+  width: 170px;
+  height: 159px;
+}
+
+.contacts-card-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #787878;
+}
+
+.contacts-card-title {
+ font-size: 17px;
+ font-weight: 600;
+ line-height: 30.6px;
+ color: #1C1C1C;
+ padding-top: 19px;
+ padding-bottom: 30px;
+}
+
+/*--------------footer------------*/
+
+.footer {
+ 
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 35px 0;
+ 
+}
+
+.logo-link {
+  margin-right: 25px;
+}
+
+.header-nav {
+  
+}
+.footer-list {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 199px;
+}
+
+.list-element {
+ 
+}
+
+.footer-list-link {
+  font-size: 15px;
+  font-weight: 600;
+  color: #787878;
+}
+
+.footer-link {
+  display: flex;
+  padding-left: 58px;
+}
+
+.footer-link img {
+  padding-right: 32px;
+}
+
+.footer-wrapper p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #787878
+
 }
